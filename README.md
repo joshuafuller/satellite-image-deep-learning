@@ -195,7 +195,7 @@ Image segmentation is a crucial step in image analysis and computer vision, with
 
 - [DPA](https://github.com/x-ytong/DPA) -> DPA is an unsupervised domain adaptation (UDA) method applied to different satellite images for large-scale land cover mapping.
 
-- [dynamicworld](https://github.com/google/dynamicworld) -> Dynamic World, Near real-time global 10 m land use land cover mapping
+- [dynamicworld](https://github.com/google/dynamicworld) -> Dynamic World, global 10 m land use land cover mapping from Google. [dynamic_world_pytorch](https://github.com/calebrob6/dynamic_world_pytorch) is a pytorch implementation.
 
 - [spada](https://github.com/links-ads/spada) -> Land Cover Segmentation with Sparse Annotations from Sentinel-2 Imagery
 
@@ -213,7 +213,7 @@ Image segmentation is a crucial step in image analysis and computer vision, with
 
 - [cnn-land-cover-eco](https://github.com/DGalexander/cnn-land-cover-eco) -> Multi-stage semantic segmentation of land cover in the Peak District using high-resolution RGB aerial imagery
 
-### Segmentation - Vegetation, deforestation, crops & crop boundaries
+### Segmentation - Vegetation, deforestation, crops & field boundaries
 
 Note that deforestation detection may be treated as a segmentation task or a change detection task
 
@@ -340,6 +340,10 @@ Note that deforestation detection may be treated as a segmentation task or a cha
 - [agribound](https://github.com/montimaj/agribound) -> An AI-powered field boundary delineation toolkit combining satellite foundation models, embeddings, and global training data for accurate agricultural parcel/field boundary mapping.
 
 - [s2-forest-browning-monitoring](https://github.com/SamanthaBiegel/s2-forest-browning-monitoring) -> Monitoring forest browning using Sentinel-2 imagery.
+
+- [LacunaLabels](https://github.com/agroimpacts/lacunalabels) -> A region-wide, multi-year set of crop field boundary labels for Africa.
+
+- [Pseudo-fields](https://github.com/philipperufin/pseudo-fields/) -> Generating pseudo labels for satellite-based crop field delineatio.
 
 ### Segmentation - Water, coastlines, rivers & floods
 
@@ -2483,6 +2487,8 @@ Note that nearly all the MISR publications resulted from the [PROBA-V Super Reso
 
 - [OpenSR Test](https://github.com/ESAOpenSR/opensr-test) -> A comprehensive benchmark for real-world Sentinel-2 imagery super-resolution
 
+- [Sentinel-5P Super-Resolution](https://github.com/hyamomar/Sentinel-5P-Super-Resolution/tree/main) -> Supervised and Self-Supervised Deep Learning for Hyperspectral Image Super-Resolution.
+
 ### Super-resolution - Miscellaneous
 
 - [The value of super resolution — real world use case](https://medium.com/sentinel-hub/the-value-of-super-resolution-real-world-use-case-2ba811f4cd7f) -> Medium article on parcel boundary detection with super-resolved satellite imagery
@@ -2946,6 +2952,10 @@ Autoencoders are a type of neural network that aim to simplify the representatio
 
 - [SatelliteBench](https://github.com/mitcriticaldatacolombia/SatelliteBench) -> a data fusion framework that combines satellite images and tabular data for dengue prediction and socioeconomic analysis
 
+- [deltabit](https://github.com/calebrob6/deltabit) -> An interactive change-detection workbench for satellite imagery using  AlphaEarth Foundations (AEF) embeddings, with blog post: [Compressing Earth Embeddings, pt. 3 – DeltaBit](https://geospatialml.com/posts/change-detection/)
+
+- [Beta-Earth](https://github.com/asterisk-labs/beta-earth) -> Embedding Sentinel-2 and Sentinel-1 with a Little Help of AlphaEarth.
+
 #
 ## Anomaly detection
 Anomaly detection refers to the process of identifying unusual patterns or outliers in satellite or aerial images that do not conform to expected norms. This is crucial in applications such as environmental monitoring, defense surveillance, and urban planning. Machine learning algorithms, particularly unsupervised learning methods, are used to analyze vast amounts of remote sensing data efficiently. These algorithms learn the typical patterns and variations in the data, allowing them to flag anomalies such as unexpected land cover changes, illegal deforestation, or unusual maritime activities. The detection of these anomalies can provide valuable insights for timely decision-making and intervention in various fields.
@@ -3231,6 +3241,8 @@ Self-supervised, unsupervised & contrastive learning are all methods of machine 
 - [dinov2-remote-sensing](https://github.com/chagmgang/dinov2-remote-sensing) -> Pytorch implementation and pretrained models for DINO v2 in remote sensing.
 
 - [K-Means GeoCentroids for DinoV2](https://github.com/aliaksandr960/dinov2_geocentroids_southamerica)
+
+- [UnigeoCLIP](https://github.com/gastruc/unigeoclip) -> a large-scale multimodal remote sensing dataset for semantically grounded foundation modeling. It contains approximately 2.5 million spatially aligned samples spanning optical imagery, SAR, elevation, canopy height, land-cover products, and geographic metadata, paired with semantically grounded captions generated through an agentic captioning framework.
 
 #
 ## Weakly & semi-supervised learning
